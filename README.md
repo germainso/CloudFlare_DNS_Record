@@ -11,7 +11,7 @@ Script to set DDNS Record via [CloudFlare](https://www.cloudflare.com)
 ```bash
 mkdir /home/CloudFlare_DDNS
 cd /home/CloudFlare_DDNS
-wget https://raw.githubusercontent.com/nanqinlang-script/CloudFlare_DNS_Record/Setter/CloudFlare_DDNS_Setter.sh
+wget https://raw.githubusercontent.com/germainso/CloudFlare_DNS_Record/Setter/CloudFlare_DDNS_Setter.sh
 wget https://raw.githubusercontent.com/nanqinlang-script/CloudFlare_DNS_Record/Setter/config.conf
 ```
 
