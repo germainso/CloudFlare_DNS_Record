@@ -85,7 +85,7 @@ continuously write those config down:
 ### step 4
 after you finished step 1~3, you will need to run this :
 ```bash
-bash CloudFlare_DDNS_Setter.sh --ddns
+bash /home/CloudFlare_DDNS/CloudFlare_DDNS_Setter.sh --ddns
 ```
 for above, the parameter `--ddns` is to update your dns A record to refresh your ddns. Freely let it automatically via such as `crontab`.
 
