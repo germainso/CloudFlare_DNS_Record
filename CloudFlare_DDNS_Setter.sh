@@ -88,7 +88,7 @@ curl -X PUT "https://api.cloudflare.com/client/v4/zones/${zone_id}/dns_records/$
 	 -H "X-Auth-Email: ${email}" \
 	 -H "X-Auth-Key: ${api_key}" \
 	 -H "Content-Type: application/json" \
-	 --data '{"type":"A", "name":"'${domain}'", "content":"'${dynamic_ip}'", "ttl":'${ttl}', "proxied":false}'
+	 --data '{"type":"A", "name":"'${domain}'", "content":"'${dynamic_ip}'", "ttl":'${ttl}', "proxied":true}'
 }
 
 create_record(){
@@ -96,7 +96,7 @@ curl -X POST "https://api.cloudflare.com/client/v4/zones/${zone_id}/dns_records"
 	 -H "X-Auth-Email: ${email}" \
 	 -H "X-Auth-Key: ${api_key}" \
 	 -H "Content-Type: application/json" \
-	 --data '{"type":"A", "name":"'${domain}'", "content":"'${dynamic_ip}'", "ttl":'${ttl}', "proxied":false}'
+	 --data '{"type":"A", "name":"'${domain}'", "content":"'${dynamic_ip}'", "ttl":'${ttl}', "proxied":true}'
 }
 
 
